@@ -1,0 +1,78 @@
+/* Sidebar container */
+.ls {
+    background-color: black;
+    color: white;
+    height: 75vh;
+  }
+  
+  /* Top section */
+  .ls-top {
+    padding: 20px;
+  }
+  
+  /* Navigation section */
+  .ls-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ls-nav .logo {
+    max-width: 140px;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .ls-nav .menu img {
+    cursor: pointer;
+  }
+  
+  /* Search bar section */
+  .ls-search {
+    background-color: #002670;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 12px;
+    margin-top: 20px;
+  }
+  
+  .ls-search input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .ls-search img {
+    width: 20px;
+  }
+  
+  /* Friends list section */
+  .ls-list {
+    margin-top: 20px;
+  }
+  
+  .friends {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .friends img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .friends p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .friends span {
+    color: #ccc;
+  }
+  
